@@ -1,2 +1,8 @@
 #Dependencia
-node_modules
+node_modules/
+.vscode/
+
+#Ignorar todos arquivos da pasta tmp
+tmp/*
+#Porém nao vou ignorar o arquivo .gitkeep
+!tmp/.gitkeep
